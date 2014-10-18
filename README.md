@@ -3,7 +3,7 @@ ShoulderSurfing
 
 Mod for Minecraft that changes the F5 third-person camera into an over-the-shoulder view
 
-This source code is provided as-is and is no longer maintained by me.
+This source code is provided _as-is_ and is _no longer maintained by me_.
 
 Nearly all the source is dependent on the Forge API.
 
