@@ -1,0 +1,8 @@
+This software is provided as-is with NO WARRANTY.
+This software does not guarantee any fit to any purpose.
+
+You are free to copy, modify, or reverse-engineer this software as long as the original author is attributed.
+The software may be distributed for commercial use, but only if the software is also made available non-commercially.
+
+This software was authored in the United States 2012-2013.
+Enjoy!
