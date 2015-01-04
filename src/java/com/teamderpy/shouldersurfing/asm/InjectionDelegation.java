@@ -70,7 +70,7 @@ public final class InjectionDelegation {
 	 */
 	@Deprecated
 	public static void drawCrosshairs(net.minecraft.client.gui.Gui g, float tick){
-		ScaledResolution sr = new ScaledResolution(ShoulderLoader.mc.gameSettings, ShoulderLoader.mc.displayWidth, ShoulderLoader.mc.displayHeight);
+		ScaledResolution sr = new ScaledResolution(ShoulderLoader.mc, ShoulderLoader.mc.displayWidth, ShoulderLoader.mc.displayHeight);
 		
 		if(ShoulderLoader.mc.gameSettings.thirdPersonView == 0){
 			lastX = sr.getScaledWidth()*sr.getScaleFactor()/2;;

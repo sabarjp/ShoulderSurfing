@@ -55,13 +55,13 @@ public class ShoulderTransformations implements IClassTransformer
          * MD: ban/g (F)V net/minecraft/src/EntityRenderer/func_78467_g (F)V
          */
 
-        registerMapping("EntityRendererClass",     "net.minecraft.client.renderer.EntityRenderer", "bll");
-        registerMapping("EntityRendererJavaClass", "net/minecraft/client/renderer/EntityRenderer", "bll");
-        registerMapping("EntityLivingJavaClass",   "net/minecraft/entity/EntityLivingBase"       , "rh");
-        registerMapping("EntityJavaClass",         "net/minecraft/entity/Entity"                 , "qn");
-        registerMapping("orientCameraMethod",      "orientCamera"                                , "g");
-        registerMapping("rotationYawField",        "rotationYaw"                                 , "z");
-        registerMapping("rotationPitchField",      "rotationPitch"                               , "A");
+        registerMapping("EntityRendererClass",     "net.minecraft.client.renderer.EntityRenderer", "blt");
+        registerMapping("EntityRendererJavaClass", "net/minecraft/client/renderer/EntityRenderer", "blt");
+        registerMapping("EntityLivingJavaClass",   "net/minecraft/entity/EntityLivingBase"       , "sv");
+        registerMapping("EntityJavaClass",         "net/minecraft/entity/Entity"                 , "sa");
+        registerMapping("orientCameraMethod",      "orientCamera"                                , "h");
+        registerMapping("rotationYawField",        "rotationYaw"                                 , "y");
+        registerMapping("rotationPitchField",      "rotationPitch"                               , "z");
         
         registerMapping("SHOULDER_ROTATIONField",  "SHOULDER_ROTATION"                           , "SHOULDER_ROTATION");
         registerMapping("SHOULDER_ZOOM_MODField",  "SHOULDER_ZOOM_MOD"                           , "SHOULDER_ZOOM_MOD");
@@ -73,8 +73,8 @@ public class ShoulderTransformations implements IClassTransformer
          */
         
         registerMapping("renderWorldMethod",               "renderWorld"                                             , "a");
-        registerMapping("clippingHelperImplJavaClass",     "net/minecraft/client/renderer/culling/ClippingHelperImpl", "bmo");
-        registerMapping("clippingHelperJavaClass",         "net/minecraft/client/renderer/culling/ClippingHelper"    , "bmq");
+        registerMapping("clippingHelperImplJavaClass",     "net/minecraft/client/renderer/culling/ClippingHelperImpl", "bmw");
+        registerMapping("clippingHelperJavaClass",         "net/minecraft/client/renderer/culling/ClippingHelper"    , "bmy");
         registerMapping("clippingHelperGetInstanceMethod", "getInstance"                                             , "a");
         
         /* net.minecraft.client.gui.GuiIngame             renderGameOverlay

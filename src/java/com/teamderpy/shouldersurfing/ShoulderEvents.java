@@ -57,7 +57,7 @@ public class ShoulderEvents {
 			float tick = event.partialTicks;
 			GuiIngame g  = ShoulderLoader.mc.ingameGUI;
 			
-			ScaledResolution sr = new ScaledResolution(ShoulderLoader.mc.gameSettings, ShoulderLoader.mc.displayWidth, ShoulderLoader.mc.displayHeight);
+			ScaledResolution sr = new ScaledResolution(ShoulderLoader.mc, ShoulderLoader.mc.displayWidth, ShoulderLoader.mc.displayHeight);
 			
 			if(ShoulderLoader.mc.gameSettings.thirdPersonView == 0){
 				lastX = sr.getScaledWidth()*sr.getScaleFactor()/2;;

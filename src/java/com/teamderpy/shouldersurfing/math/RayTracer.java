@@ -43,7 +43,7 @@ public final class RayTracer {
 
 	                if(omo != null){
 	                	ShoulderRenderBin.rayTraceHit = omo.hitVec;
-	                	blockDist = omo.hitVec.distanceTo(ShoulderLoader.mc.theWorld.getWorldVec3Pool().getVecFromPool(ShoulderLoader.mc.renderViewEntity.posX, ShoulderLoader.mc.renderViewEntity.posY, ShoulderLoader.mc.renderViewEntity.posZ));
+	                	blockDist = omo.hitVec.distanceTo(Vec3.createVectorHelper(ShoulderLoader.mc.renderViewEntity.posX, ShoulderLoader.mc.renderViewEntity.posY, ShoulderLoader.mc.renderViewEntity.posZ));
 	                	//System.out.println("block dist: " + blockDist);
 	                	if(blockDist <= (double)ShoulderLoader.mc.playerController.getBlockReachDistance()){
 	                		ShoulderRenderBin.rayTraceInReach = true;
@@ -74,7 +74,7 @@ public final class RayTracer {
 	                        MovingObjectPosition potentialIntercept = aabb.calculateIntercept(renderViewPos, sightRay);
 	                        
 	                        if (potentialIntercept != null){
-	                        	double entityDist = potentialIntercept.hitVec.distanceTo(ShoulderLoader.mc.theWorld.getWorldVec3Pool().getVecFromPool(ShoulderLoader.mc.renderViewEntity.posX, ShoulderLoader.mc.renderViewEntity.posY, ShoulderLoader.mc.renderViewEntity.posZ));
+	                        	double entityDist = potentialIntercept.hitVec.distanceTo(Vec3.createVectorHelper(ShoulderLoader.mc.renderViewEntity.posX, ShoulderLoader.mc.renderViewEntity.posY, ShoulderLoader.mc.renderViewEntity.posZ));
 	                        	
 	                        	if(entityDist < blockDist){
 	                        		ShoulderRenderBin.rayTraceHit = potentialIntercept.hitVec;
