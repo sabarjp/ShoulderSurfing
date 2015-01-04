@@ -8,6 +8,7 @@ Nearly all the source is dependent on the Forge API.
 Change
 ========
 
+* Update to 1.7.10 by LaysDragon
 * Update to 1.7.2 by LaysDragon
 * Add language file for the key description
 
