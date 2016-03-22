@@ -3,9 +3,15 @@ ShoulderSurfing
 
 Mod for Minecraft that changes the F5 third-person camera into an over-the-shoulder view
 
-This source code is provided _as-is_ and is _no longer maintained by me_.
-
 Nearly all the source is dependent on the Forge API.
+
+Change
+========
+
+* Update to 1.7.10 by LaysDragon
+* Update to 1.7.2 by LaysDragon
+* Add language file for the key description
+
 
 Features
 ========
@@ -20,7 +26,7 @@ Download
 ========
 Required: Forge universal files for your minecraft version (http://files.minecraftforge.net/)
 The Forge files go into your minecraft jar.
-Tested with Forge 9.10.0.828
+Tested with Forge 10.12.2.1121
 
 Compatibility
 =============
@@ -36,6 +42,3 @@ Open the zip file
 
 The JAR file needs to go into the MODS folder under Minecraft. Make sure to remove any previous versions from the COREMODS and MODS folder. This mod will not work if placed anywhere but the MODS folder!
 
-Issues
-======
-* Prevent camera from clipping into walls in tight spaces (fix behind-head raytrace)

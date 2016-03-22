@@ -1,4 +1,0 @@
-1. Install Forge (tested with 6.5.0.486)(http://files.minecraftforge.net/)
-2. Extract the "minecraft jar" folder contents into the Minecraft jar, overwriting files
-3. Extract the "mods folder" folder contents into the mods folder of your minecraft directory
-4. Test the game!

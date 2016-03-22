@@ -1,6 +1,0 @@
-1. Install Forge (tested with 9.11.1.953)(http://files.minecraftforge.net/)
-2. Make sure Minecraft runs
-3. Exit Minecraft
-4. Remove any previous versions from the MODS and COREMODS folders of minecraft
-5. Extract the ShoulderSurfing.jar file to the MODS folder of minecraft
-6. Enjoy!

@@ -1,0 +1,39 @@
+buildscript {
+repositories
+{
+mavenCentral()
+maven {
+name = "forge"
+url = "http://files.minecraftforge.net/maven"
+}
+maven {
+name = "sonatype"
+url = "https://oss.sonatype.org/content/repositories/snapshots/"
+}
+}
+dependencies
+{
+classpath "net.minecraftforge.gradle:ForgeGradle:1.2-SNAPSHOT"
+}
+}
+
+apply plugin: "forge"
+jar {
+	manifest {
+        attributes 'FMLCorePlugin': 'com.teamderpy.shouldersurfing.asm.ShoulderPlugin'
+        attributes 'FMLCorePluginContainsFMLMod': 'true'
+
+    }
+}
+sourceSets
+{
+main
+{
+java { srcDirs = ["$projectDir/java"] }
+resources { srcDirs = ["$projectDir/resources"] }
+}
+}
+
+archivesBaseName = "shouldersurfing"
+version = "1.7.10"
+minecraft.version = "1.7.10-10.13.2.1230"
